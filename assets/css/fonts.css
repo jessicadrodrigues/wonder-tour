@@ -1,0 +1,7 @@
+@font-face {
+    font-family:carnero;
+    url(../fonts/carnero/carnero/Carnero\ Regular.otf) format("opentype");
+    src: url(../fonts/carnero/carnero/Carnero\ Bold.otf) format("opentype"), 
+    url(../fonts/carnero/carnero/Carnero\ Italic.otf) format("opentype"),
+    
+}
