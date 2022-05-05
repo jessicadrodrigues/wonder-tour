@@ -5,6 +5,10 @@ body {
     font-family: "carnero", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
         Verdana, sans-serif;
 
+        p{
+            color: #525452;
+        }
+
     header {
         width: 100%;
         height: 26vh;
@@ -28,6 +32,7 @@ body {
 
                 p {
                     color: #525452;
+                    font-size: 15px;
                 }
 
                 figure {
@@ -47,11 +52,6 @@ body {
                 align-items: center;
                 border: none;
 
-                p {
-                    color: #525452;
-                    border:none;
-                }
-
                 figure {
                     display: flex;
                     align-items: center;
@@ -67,6 +67,7 @@ body {
                     align-items: center;
                     text-decoration: none;
                     color: #525452;
+                    font-size: 15px;
                 }
             }
             .button {
@@ -82,6 +83,7 @@ body {
                 font-size: 16px;
                 cursor: pointer;
                 border: solid 2px #01b3a7;
+                font-size: 15px;
 
                 &:hover {
                     background-color: #01b3a7;
@@ -127,21 +129,17 @@ body {
                         font-weight: bold;
                         color: #c8c8c8;
                         letter-spacing: 2px;
-                        height: 12vh;
+                        font-size: 15px;
 
                         &:hover {
                             background-color: #2d455c;
                             border-top: solid 4px #01b3a7;
-
-                            a {
-                                color: #fff;
-                            }
                         }
 
                         a {
                             cursor: pointer;
                             text-decoration: none;
-                            color: #c8c8c8;
+                            color: #f9f8fd;;
                             width: 10vw;
                         }
 
@@ -156,7 +154,7 @@ body {
     .text-banner {
         margin-bottom: -85px;
         p {
-            width: 100%;
+            width: 80%;
             position: relative;
             bottom: 33vh;
             font-size: 36px;
@@ -169,7 +167,7 @@ body {
 
     .cards {
         width: 100%;
-        height: 85vh;
+        height: 82vh;
         display: flex;
         background-color: #f7f7f7;
 
@@ -222,22 +220,24 @@ body {
             align-items: center;
             justify-content: center;
             width: 100%;
-            height: 15vh;
             text-decoration: none;
-            margin-top: -65px;
 
             button {
-                width: 9vw;
+                width: 12vw;
                 height: 8vh;
-                font-family: "carnero", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
-                    Geneva, Verdana, sans-serif;
+                font-family: "carnero", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",Geneva, Verdana, sans-serif;
+                background-color: #fff;
+                text-decoration: none;
+                color:#525452;
+                border: solid 1px #01b3a7;
+                padding: 10px 25px;
                 font-size: 16px;
-                background-color: transparent;
-                border: none;
 
                 &:hover {
-                    font-size: 18px;
                     cursor: pointer;
+                    background-color: #01b3a7;
+                    color: #fff;
+                    //font-weight: bold;
                 }
             }
         }
@@ -245,10 +245,10 @@ body {
 
     .title{
         text-align: center;
-        h3{
-            font-size: 35px;
+        h2{
+            font-size: 26px;
             color:#151515;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
         }
     }
 
@@ -321,6 +321,115 @@ body {
                 }
             }
         }
+    }
+
+    .team{
+        height: 85vh;
+        .titleteam{
+            text-align: center;
+            h2{
+                font-size: 26px;
+                color:#151515;
+                letter-spacing: 1px;
+                margin-top: 42px;
+            }
+        }
+        .staff{
+            display: flex;
+            justify-content: space-around;
+            margin:40px 0;
+
+            .people{
+                padding: 20px;
+                background-color: #f7f7f7;
+                border-radius: 20px;
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                picture{
+                    margin-left: 16px;
+                    img{
+                        width: 13vw;
+                        height: 29vh;;
+                        border-radius: 50%;
+                        border:4px solid #01b3a7;
+                                        
+                    }
+                }
+                h2{
+                    height: 20px;
+                    font-size: 18px;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    color:#151515;
+                }
+                p{
+                    text-align: center;
+                    color:#01b3a7;
+                    margin: 8px 0;
+                }
+                a{
+                    margin-left: 30px;
+                    text-decoration: none;
+                    color:#151515;
+                    cursor: pointer;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        background-color: #f7f7f7;
+        height: 92vh;
+
+        .titletestimonials{
+            text-align: center;
+            h2{
+                font-size: 26px;
+                color:#151515;
+                letter-spacing: 1px;
+        
+            }  
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            .testimonials1{
+                background-color: #fff;
+                width: 385px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 33px;
+                filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.15));
+                
+                picture{
+                    margin-top: 20px;
+                    img{
+                        width: 200px;
+                        border-radius: 50%;
+                    }
+                }
+                p{
+                    width: 269px;
+                    font-size: 13px;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                h2{
+                    color:#01b3a7;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 23px;
+                }
+            }  
+        }
+        
     }
 
 }
