@@ -8,13 +8,13 @@ let index = 0
 //troque o src para a imagem que queira adicionar no carrosel
 let suasImagens = [
   {
-    index:0,                  src:'https://www.10wallpaper.com/wallpaper/2560x1600/1411/Beach_day-Photos_HD_Wallpaper_2560x1600.jpg'
+    index:0,                  src:'https://aventurasnahistoria.uol.com.br/media/stories/5-peculiaridades-sobre-a-grande-muralha-da-china/assets/11.jpeg'
   },
   {
     index:1,                  src:'https://images4.alphacoders.com/602/602004.jpg'
   },
   {
-    index:2,                  src:'https://images2.alphacoders.com/546/thumb-1920-546391.jpg'
+    index:2,                  src:'https://www.pixel4k.com/wp-content/uploads/2020/10/northern-lights-aurora-borealis-4k_1602606154.jpg'
   },
   
 ]

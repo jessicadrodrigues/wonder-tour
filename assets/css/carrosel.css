@@ -16,6 +16,7 @@ body{
     .carrosel-container{
     perspective: 300px;
     width:100%;
+    height: 154vh;
     position:relative;
     overflow:hidden;
     
@@ -33,11 +34,9 @@ body{
   }
 
   .carrosel-container button{
-    background: rgb(164 179 191);
+    background: none;
   }
   .carrosel__btn--style{
-    width:2rem;
-    height:2rem;
     border:none;
     outline:none;
     cursor:pointer;
@@ -57,11 +56,21 @@ body{
     top:33%;
     background:url(../images/paradisebanner.jpg);
    }
+   .prev img{
+    width: 33px;
+   }
+
   .next{
     background:url(../images/paradise.jpg);
     right:0%;
     top:33%;
+    margin-right: 38px;
+    width: 50px;
   }
+  .next img{
+    width: 33px;
+   }
+
   
   .effect_next{
     animation:effect_next .4s 1;
@@ -98,17 +107,16 @@ body{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    width:10rem;
+    width: 7vw;
     margin-top: -28%;
     margin-bottom: 23px;
     position: relative;
     transition: all .5s;
   }
   .circle-container .circle-item{
-    background-color: #fff;
     width:1rem;
     height:1rem;
-    border:1px solid rgb(125 188 226);
+    border:8px solid #fff;
     border-radius:50%;
     transition: all .5s;
     box-shadow:1px 1px 1px ;
